@@ -12,7 +12,6 @@ import javax.inject.Inject;
 @Model(
         adaptables = SlingHttpServletRequest.class,
         adapters = HomeBanner.class,
-//        resourceType = HomeBannerImpl.RESOURCE_TYPE,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 public class HomeBannerImpl implements HomeBanner {

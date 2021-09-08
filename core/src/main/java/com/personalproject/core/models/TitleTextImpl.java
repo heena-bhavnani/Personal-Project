@@ -11,7 +11,6 @@ import javax.inject.Inject;
 @Model(
         adaptables = SlingHttpServletRequest.class,
         adapters = TitleText.class,
-//        resourceType = HomeBannerImpl.RESOURCE_TYPE,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 public class TitleTextImpl implements TitleText {
