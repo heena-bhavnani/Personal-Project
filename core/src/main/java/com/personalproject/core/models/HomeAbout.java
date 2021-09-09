@@ -7,5 +7,6 @@ public interface HomeAbout {
     String getIntro();
     String getButtonTitle();
     String getAboutImage();
+    String getPath();
 
 }

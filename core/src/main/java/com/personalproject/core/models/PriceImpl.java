@@ -7,24 +7,39 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(
         adaptables = SlingHttpServletRequest.class,
-        adapters = TitleText.class,
+        adapters = Price.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
-public class TitleTextImpl implements TitleText {
 
-//    final protected static String RESOURCE_TYPE = "personalproject/components/content/titletext";
+public class PriceImpl implements Price{
+
+    @ValueMapValue
+    String number;
+
+    @ValueMapValue
+    String heading;
 
     @ValueMapValue
     String title;
 
     @ValueMapValue
-    String info;
+    String tag1;
 
     @ValueMapValue
-    Boolean sectiongap;
+    String tag2;
 
     @ValueMapValue
-    Boolean paddingbottom;
+    String tag3;
+
+    @Override
+    public String getNumber() {
+        return number;
+    }
+
+    @Override
+    public String getHeading() {
+        return heading;
+    }
 
     @Override
     public String getTitle() {
@@ -32,17 +47,17 @@ public class TitleTextImpl implements TitleText {
     }
 
     @Override
-    public String getInfo() {
-        return info;
+    public String getTag1() {
+        return tag1;
     }
 
     @Override
-    public Boolean getSectionGap() {
-        return sectiongap;
+    public String getTag2() {
+        return tag2;
     }
 
     @Override
-    public Boolean getPaddingBottom() {
-        return paddingbottom;
+    public String getTag3() {
+        return tag3;
     }
 }

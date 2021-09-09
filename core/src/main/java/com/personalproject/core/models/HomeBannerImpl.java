@@ -38,6 +38,9 @@ public class HomeBannerImpl implements HomeBanner {
     @ValueMapValue
     String img;
 
+    @ValueMapValue
+    String pathfield;
+
     @Override
     public String getBio() {
         return bio;
@@ -61,5 +64,10 @@ public class HomeBannerImpl implements HomeBanner {
     @Override
     public String getHeroImage() {
         return img;
+    }
+
+    @Override
+    public String getPath() {
+        return pathfield;
     }
 }

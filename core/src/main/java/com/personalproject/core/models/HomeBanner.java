@@ -7,5 +7,6 @@ public interface HomeBanner {
     String getIntro();
     String getMyButton();
     String getHeroImage();
+    String getPath();
 
 }
