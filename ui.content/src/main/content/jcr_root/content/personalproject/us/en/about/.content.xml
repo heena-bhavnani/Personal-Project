@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-09T13:31:13.243+05:30"
+        cq:lastModified="{Date}2021-09-15T12:48:00.528+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -23,14 +23,116 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/container"
                     layout="responsiveGrid">
-                    <image
-                        jcr:created="{Date}2021-09-09T13:31:13.238+05:30"
+                    <menunav
+                        jcr:created="{Date}2021-09-14T12:42:12.062+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T13:31:13.238+05:30"
+                        jcr:lastModified="{Date}2021-09-15T12:48:00.525+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/image"
-                        fileReference="/content/dam/personalproject/p2.jpg"/>
+                        sling:resourceType="personalproject/components/content/menunav"
+                        heading="About Me"
+                        path="/content/personalproject/us/en/home"
+                        path1="/content/personalproject/us/en/home"
+                        path2="/content/personalproject/us/en/about"
+                        title="Home"
+                        title1="Home"
+                        title2="About Me"/>
+                    <homeabout
+                        jcr:created="{Date}2021-09-07T11:45:57.592+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T11:23:14.566+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/homeabout"
+                        about="About Me"
+                        details="Personal Details"
+                        img="/content/dam/personalproject/about-img.png"
+                        intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                        mybutton="VIEW FULL DETAILS"
+                        pathfield="/content/personalproject/us/en/about"/>
+                    <titletext
+                        jcr:created="{Date}2021-09-15T11:45:22.759+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T11:46:48.718+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/titletext"
+                        info="Who are in extremely love with eco friendly system."
+                        paddingbottom="true"
+                        sectiongap="true"
+                        title="My Qualifications"/>
+                    <timeline
+                        jcr:created="{Date}2021-09-14T23:43:31.576+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T11:43:36.733+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/timeline">
+                        <timelinedetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                heading="Masters in Graphics &amp; Fine Arts"
+                                text="Result: 3.78 (In the Scale of 4.00)"
+                                title="Session: 2010-11"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                heading="Creative Content Developer"
+                                title="July 2015 to Present"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                heading="Bachelor in Graphics &amp; UI/UX"
+                                text="Result: 3.40 (In the Scale of 4.00)"
+                                title="Session: 2006-09"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                heading="Senior UI/UX Designer"
+                                title="July 2015 to Present"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                heading="Diploma in Fine Arts &amp; Printing"
+                                text="Result: 4.94 (In the Scale of 5.00)"
+                                title="Session: 2003-06"/>
+                        </timelinedetailswithmap>
+                    </timeline>
+                    <titletext_1458234566
+                        jcr:created="{Date}2021-09-09T12:32:46.304+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T12:53:31.304+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/titletext"
+                        info="It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person."
+                        paddingbottom="true"
+                        sectiongap="true"
+                        title="Client’s Feedback About Me"/>
+                    <testimonial
+                        jcr:created="{Date}2021-09-09T12:12:56.350+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T12:15:44.275+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/testimonial">
+                        <testimonialdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                description="Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you."
+                                heading="Harriet Maxwell"
+                                title="CEO at Google"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                description="A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However."
+                                heading="Carolyn Craig"
+                                title="CEO at Facebook"/>
+                        </testimonialdetailswithmap>
+                    </testimonial>
+                    <brands_22957284
+                        jcr:created="{Date}2021-09-14T17:22:25.794+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-14T18:05:38.160+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/brands"
+                        path="[/content/dam/personalproject/l1.png,/content/dam/personalproject/l2.png,/content/dam/personalproject/l3.png,/content/dam/personalproject/l4.png,/content/dam/personalproject/l5.png]"/>
                 </container>
             </container>
         </root>
