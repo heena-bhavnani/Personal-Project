@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-15T12:48:00.528+05:30"
+        cq:lastModified="{Date}2021-09-15T17:13:33.685+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -94,37 +94,14 @@
                                 title="Session: 2003-06"/>
                         </timelinedetailswithmap>
                     </timeline>
-                    <titletext_1458234566
-                        jcr:created="{Date}2021-09-09T12:32:46.304+05:30"
+                    <experiencefragment
+                        jcr:created="{Date}2021-09-15T17:13:11.321+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T12:53:31.304+05:30"
+                        jcr:lastModified="{Date}2021-09-15T17:13:11.321+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/titletext"
-                        info="It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person."
-                        paddingbottom="true"
-                        sectiongap="true"
-                        title="Client’s Feedback About Me"/>
-                    <testimonial
-                        jcr:created="{Date}2021-09-09T12:12:56.350+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T12:15:44.275+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/testimonial">
-                        <testimonialdetailswithmap jcr:primaryType="nt:unstructured">
-                            <item0
-                                jcr:primaryType="nt:unstructured"
-                                description="Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you."
-                                heading="Harriet Maxwell"
-                                title="CEO at Google"/>
-                            <item1
-                                jcr:primaryType="nt:unstructured"
-                                description="A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However."
-                                heading="Carolyn Craig"
-                                title="CEO at Facebook"/>
-                        </testimonialdetailswithmap>
-                    </testimonial>
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/testimonial-fragment/master"/>
                     <brands_22957284
                         jcr:created="{Date}2021-09-14T17:22:25.794+05:30"
                         jcr:createdBy="admin"

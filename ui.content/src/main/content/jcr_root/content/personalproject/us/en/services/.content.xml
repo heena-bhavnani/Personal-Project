@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-15T12:47:53.219+05:30"
+        cq:lastModified="{Date}2021-09-15T17:18:53.999+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -37,114 +37,14 @@
                         title="Home"
                         title1="Home"
                         title2="Services"/>
-                    <titletext
-                        jcr:created="{Date}2021-09-07T12:04:37.543+05:30"
+                    <experiencefragment
+                        jcr:created="{Date}2021-09-15T17:15:30.295+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T16:37:47.481+05:30"
+                        jcr:lastModified="{Date}2021-09-15T17:15:30.295+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/titletext"
-                        bottompadding="false"
-                        info="At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected."
-                        paddingbottom="false"
-                        sectiongap="true"
-                        title="My Offered Services"/>
-                    <services
-                        jcr:created="{Date}2021-09-07T12:12:52.001+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-08T17:19:30.628+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/services"
-                        description="“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”"
-                        title="Web Design">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </services>
-                    <services_1968738540
-                        jcr:created="{Date}2021-09-14T13:26:00.704+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:26:19.849+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/services"
-                        description="If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions."
-                        title="Web Development">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </services_1968738540>
-                    <services_1771735089
-                        jcr:created="{Date}2021-09-14T13:26:30.561+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:26:48.338+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/services"
-                        description="Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills."
-                        title="Photography">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </services_1771735089>
-                    <services_1887595493
-                        jcr:created="{Date}2021-09-14T13:26:57.058+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:27:21.132+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/services"
-                        description="Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument."
-                        title="Clipping Path">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </services_1887595493>
-                    <services_1597070266
-                        jcr:created="{Date}2021-09-14T13:27:33.446+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:27:50.748+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/services"
-                        description="Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts."
-                        title="Apps Interface">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </services_1597070266>
-                    <services_879117659
-                        jcr:created="{Date}2021-09-14T13:28:09.247+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:28:24.512+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/services"
-                        description="You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that."
-                        title="Graphic Design">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </services_879117659>
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/services-fragment/master"/>
                     <factarea
                         jcr:created="{Date}2021-09-14T13:29:30.868+05:30"
                         jcr:createdBy="admin"
@@ -171,86 +71,22 @@
                                 factnumber="435"/>
                         </factdetailswithmap>
                     </factarea>
-                    <price
-                        jcr:created="{Date}2021-09-14T13:30:16.993+05:30"
+                    <experiencefragment_2043713593
+                        jcr:created="{Date}2021-09-15T17:15:42.066+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:31:58.610+05:30"
+                        jcr:lastModified="{Date}2021-09-15T17:15:42.066+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/price"
-                        heading="Economy"
-                        number="01"
-                        tag1="Secure Online Transfer"
-                        tag2="Unlimited Styles for interface"
-                        tag3="Reliable Customer Service"
-                        title="For the individuals">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                        </cq:responsive>
-                    </price>
-                    <price_163347467
-                        jcr:created="{Date}2021-09-14T13:30:26.592+05:30"
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/price-fragment/master"/>
+                    <experiencefragment_45067307
+                        jcr:created="{Date}2021-09-15T17:15:56.324+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:32:16.965+05:30"
+                        jcr:lastModified="{Date}2021-09-15T17:15:56.324+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/price"
-                        heading="Business"
-                        number="02"
-                        tag1="Secure Online Transfer"
-                        tag2="Unlimited Styles for interface"
-                        tag3="Reliable Customer Service"
-                        title="For the individuals">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                        </cq:responsive>
-                    </price_163347467>
-                    <price_1739292382
-                        jcr:created="{Date}2021-09-14T13:30:36.431+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:32:32.548+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/price"
-                        heading="Premium"
-                        number="03"
-                        tag1="Secure Online Transfer"
-                        tag2="Unlimited Styles for interface"
-                        tag3="Reliable Customer Service"
-                        title="For the individuals">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                        </cq:responsive>
-                    </price_1739292382>
-                    <price_790240722
-                        jcr:created="{Date}2021-09-14T13:31:16.665+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:32:55.492+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/price"
-                        heading="Exclusive"
-                        number="04"
-                        tag1="Secure Online Transfer"
-                        tag2="Unlimited Styles for interface"
-                        tag3="Reliable Customer Service"
-                        title="For the individuals">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                        </cq:responsive>
-                    </price_790240722>
+                        sling:resourceType="personalproject/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/testimonial-fragment/master"/>
                     <titletext_841985972
                         jcr:created="{Date}2021-09-14T13:33:17.838+05:30"
                         jcr:createdBy="admin"
