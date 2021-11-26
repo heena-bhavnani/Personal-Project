@@ -8,6 +8,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @ExtendWith({AemContextExtension.class, MockitoExtension.class})
 class HomeBannerImplTest {
 
@@ -68,8 +69,10 @@ class HomeBannerImplTest {
     void getPath() {
         aemContext.currentResource("/component/homeBanner");
         HomeBanner homeBanner = aemContext.request().adaptTo(HomeBanner.class);
-        final String expected="/content/dam/personalproject/hero-img.png";
-        String actual = homeBanner.getHeroImage();
+      
+        final String expected="/content/personalproject/us/en/about";
+        String actual = homeBanner.getPath();
+
         assertEquals(expected,actual);
     }
 }
