@@ -69,8 +69,10 @@ class HomeBannerImplTest {
     void getPath() {
         aemContext.currentResource("/component/homeBanner");
         HomeBanner homeBanner = aemContext.request().adaptTo(HomeBanner.class);
+      
         final String expected="/content/personalproject/us/en/about";
         String actual = homeBanner.getPath();
+
         assertEquals(expected,actual);
     }
 }
