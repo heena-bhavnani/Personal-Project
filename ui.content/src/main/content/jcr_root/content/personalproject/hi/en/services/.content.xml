@@ -2,104 +2,151 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
-        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2022-01-18T19:07:40.623+05:30"
+        cq:lastModified="{Date}2022-01-20T16:48:17.400+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2021-09-17T10:39:58.314+05:30"
-        cq:lastReplicatedBy="admin"
+        cq:lastReplicated="{Date}2022-01-17T18:50:54.367+05:30"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2022-01-24T14:56:59.572+05:30"
+        cq:lastRolledoutBy="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Services"
-        jcr:uuid="91889db0-95ed-4bb0-9bb8-be796a443b19"
-        sling:resourceType="personalproject/components/page">
+        jcr:uuid="6eb76d42-d5a9-4622-80f1-1d34819b3c3d"
+        sling:resourceType="personalproject/components/page"
+        approver1="Heena Bhavnani"
+        approver2="Test User">
         <root
+            cq:lastRolledout="{Date}2022-01-20T16:48:17.147+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="personalproject/components/container"
             layout="responsiveGrid">
             <container
+                cq:lastRolledout="{Date}2022-01-20T16:48:17.163+05:30"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="personalproject/components/container"
                 layout="responsiveGrid">
                 <title
+                    cq:lastRolledout="{Date}2022-01-20T16:48:17.218+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/title"/>
                 <container
+                    cq:lastRolledout="{Date}2022-01-20T16:48:17.230+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/container"
                     layout="responsiveGrid">
                     <menunav
+                        cq:lastRolledout="{Date}2022-01-20T16:48:17.292+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-14T13:18:19.640+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T12:47:53.211+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:17.271+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/menunav"
                         heading="Services"
                         path="/content/personalproject/us/en/home"
                         path1="/content/personalproject/us/en/home"
-                        path2="/content/personalproject/us/en/services"
+                        path2="/content/personalproject/hi/en/services"
                         title="Home"
                         title1="Home"
                         title2="Services"/>
                     <experiencefragment
+                        cq:lastRolledout="{Date}2022-01-20T16:48:17.306+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-15T17:15:30.295+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T17:15:30.295+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:17.297+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/services-fragment/master"/>
                     <factarea
+                        cq:lastRolledout="{Date}2022-01-20T16:48:17.320+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-14T13:29:30.868+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-14T13:30:03.702+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:17.310+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/factarea">
-                        <factdetailswithmap jcr:primaryType="nt:unstructured">
+                        <factdetailswithmap
+                            cq:lastRolledout="{Date}2022-01-20T16:48:17.329+05:30"
+                            cq:lastRolledoutBy="admin"
+                            jcr:mixinTypes="[cq:LiveRelationship]"
+                            jcr:primaryType="nt:unstructured">
                             <item0
+                                cq:lastRolledout="{Date}2022-01-20T16:48:17.357+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 factlabel="Projects Completed"
                                 factnumber="2536"/>
                             <item1
+                                cq:lastRolledout="{Date}2022-01-20T16:48:17.363+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 factlabel="Happy Clients"
                                 factnumber="6784"/>
                             <item2
+                                cq:lastRolledout="{Date}2022-01-20T16:48:17.373+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 factlabel="Cups of Coffee"
                                 factnumber="2239"/>
                             <item3
+                                cq:lastRolledout="{Date}2022-01-20T16:48:17.380+05:30"
+                                cq:lastRolledoutBy="admin"
+                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 factlabel="Real Professionals"
                                 factnumber="435"/>
                         </factdetailswithmap>
                     </factarea>
                     <experiencefragment_2043713593
+                        cq:lastRolledout="{Date}2022-01-20T16:48:17.393+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-15T17:15:42.066+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T17:15:42.066+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:17.385+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/price-fragment/master"/>
                     <experiencefragment_45067307
+                        cq:lastRolledout="{Date}2022-01-20T16:48:17.404+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-15T17:15:56.324+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T17:15:56.324+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:17.397+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/testimonial-fragment/master"/>
                 </container>
             </container>
         </root>
-        <cq:BlueprintSyncConfig
-            cq:rolloutConfigs="[/apps/msm/personal-project/rolloutconfigs/customrollout]"
-            jcr:primaryType="cq:BlueprintSyncConfig"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/personalproject/us/en/services"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default,/apps/msm/personal-project/rolloutconfigs/customconfig]"
+            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
 </jcr:root>

@@ -2,24 +2,28 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-01-24T14:12:40.825+05:30"
+        cq:lastModified="{Date}2022-01-20T14:30:03.502+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2022-01-18T13:29:18.274+05:30"
+        cq:lastReplicated="{Date}2022-01-17T18:51:34.706+05:30"
         cq:lastReplicatedBy="workflow-process-service"
         cq:lastReplicationAction="Activate"
-        cq:redirectTarget="/content/personalproject/us/en"
+        cq:lastRolledout="{Date}2022-01-17T18:44:12.901+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:redirectTarget="/content/personalproject/hi/en"
+        cq:siteOwner="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="us"
-        jcr:uuid="4e1ba74b-1677-4b5b-be00-893959d78732"
+        jcr:title="India"
+        jcr:uuid="91f638d0-e110-4a32-8789-dce30a09ca55"
         sling:resourceType="foundation/components/redirect"
         approver1="Heena Bhavnani"
         approver2="Test User">
-        <cq:BlueprintSyncConfig
-            cq:rolloutConfigs="[/apps/msm/personal-project/rolloutconfigs/customrollout]"
-            jcr:primaryType="cq:BlueprintSyncConfig"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/personalproject/us"
+            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
     <en/>
 </jcr:root>
