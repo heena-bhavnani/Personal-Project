@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="07c45b4c-bc78-4d93-bd84-66bbb7559159">
+    <jcr:content
+        cq:name="author-details"
+        cq:parentPath="/content/dam/personalproject/content-fragments/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2022-01-28T15:54:01.938+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Author Details"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-01-28T15:54:01.938+05:30">
+        <data
+            cq:model="/conf/personalproject/settings/dam/cfm/models/personal-project-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                authorbio="&lt;p>&lt;b>J.&amp;nbsp;K. Rowling&lt;/b>, is a British author, philanthropist, film producer, and screenwriter. She is the author of the&amp;nbsp;&lt;i>&lt;a href=&quot;https://en.wikipedia.org/wiki/Harry_Potter&quot; title=&quot;Harry Potter&quot;>Harry Potter&lt;/a>&lt;/i>&amp;nbsp;series, which has won multiple awards and sold more than 500&amp;nbsp;million copies as of 2018, and became the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_best-selling_books&quot; title=&quot;List of best-selling books&quot;>best-selling book children's series in history&lt;/a>&amp;nbsp;in 2008.&amp;nbsp;The books are the basis of a&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Harry_Potter_(film_series)&quot; title=&quot;Harry Potter (film series)&quot;>popular film series&lt;/a>. She also writes&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Crime_fiction&quot; title=&quot;Crime fiction&quot;>crime fiction&lt;/a>&amp;nbsp;under the pen name&amp;nbsp;&lt;b>Robert Galbraith&lt;/b>.&lt;/p>&#xa;"
+                authorbio_x0040_ContentType="text/html"
+                authorbio_x0040_LastModified="{Date}2022-01-28T15:49:23.109+05:30"
+                authorname="J. K. Rowling"
+                authorname_x0040_LastModified="{Date}2022-01-28T15:49:23.095+05:30"
+                books="[The Casual Vacancy,Harry Potter]"
+                books_x0040_LastModified="{Date}2022-01-28T15:49:23.100+05:30"
+                isauthor="{Boolean}true"
+                isauthor_x0040_LastModified="{Date}2022-01-28T15:49:23.107+05:30"
+                profession="author"
+                profession_x0040_LastModified="{Date}2022-01-28T15:49:23.105+05:30"
+                publishdate="{Date}2022-01-02T15:11:00.000+05:30"
+                publishdate_x0040_LastModified="{Date}2022-01-28T15:49:23.104+05:30"/>
+            <author1
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                authorbio="&lt;p>&lt;b>J.&amp;nbsp;K. Rowling&lt;/b>, is a British author, philanthropist, film producer, and screenwriter. She is the author of the&amp;nbsp;&lt;i>&lt;a href=&quot;https://en.wikipedia.org/wiki/Harry_Potter&quot; title=&quot;Harry Potter&quot;>Harry Potter&lt;/a>&lt;/i>&amp;nbsp;series, which has won multiple awards and sold more than 500&amp;nbsp;million copies as of 2018, and became the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_best-selling_books&quot; title=&quot;List of best-selling books&quot;>best-selling book children's series in history&lt;/a>&amp;nbsp;in 2008.&amp;nbsp;The books are the basis of a&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Harry_Potter_(film_series)&quot; title=&quot;Harry Potter (film series)&quot;>popular film series&lt;/a>. She also writes&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Crime_fiction&quot; title=&quot;Crime fiction&quot;>crime fiction&lt;/a>&amp;nbsp;under the pen name&amp;nbsp;&lt;b>Robert Galbraith&lt;/b>.&lt;/p>&#xa;"
+                authorbio_x0040_ContentType="text/html"
+                authorbio_x0040_LastModified="{Date}2022-01-28T15:54:01.891+05:30"
+                authorname="Joanne Rowling"
+                authorname_x0040_LastModified="{Date}2022-01-28T15:54:01.889+05:30"
+                books="[The Casual Vacancy,Harry Potter,Fantastic Beasts]"
+                books_x0040_LastModified="{Date}2022-01-28T15:54:01.889+05:30"
+                isauthor="{Boolean}true"
+                isauthor_x0040_LastModified="{Date}2022-01-28T15:54:01.891+05:30"
+                profession="both"
+                profession_x0040_LastModified="{Date}2022-01-28T15:54:01.890+05:30"
+                publishdate="{Date}2022-01-16T15:11:00.000+05:30"
+                publishdate_x0040_LastModified="{Date}2022-01-28T15:54:01.890+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <author1
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="author1"
+                    name="author1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[authorname:721e57cb-1172-4701-9fb3-be62004e172d,books:721e57cb-1172-4701-9fb3-be62004e172d,publishdate:721e57cb-1172-4701-9fb3-be62004e172d,profession:721e57cb-1172-4701-9fb3-be62004e172d,isauthor:721e57cb-1172-4701-9fb3-be62004e172d,authorbio:721e57cb-1172-4701-9fb3-be62004e172d]"/>
+                </author1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
