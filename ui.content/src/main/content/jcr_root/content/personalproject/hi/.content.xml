@@ -18,6 +18,7 @@
         jcr:title="India"
         jcr:uuid="91f638d0-e110-4a32-8789-dce30a09ca55"
         sling:configRef="/conf/personalproject/in"
+
         sling:resourceType="foundation/components/redirect"
         approver1="Heena Bhavnani"
         approver2="Test User">
