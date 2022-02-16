@@ -2,62 +2,84 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
-        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2022-01-18T19:07:58.875+05:30"
+        cq:lastModified="{Date}2022-01-20T16:48:14.709+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2021-09-17T10:39:58.314+05:30"
-        cq:lastReplicatedBy="admin"
+        cq:lastReplicated="{Date}2022-01-17T18:50:59.678+05:30"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2022-01-24T14:56:59.497+05:30"
+        cq:lastRolledoutBy="admin"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:mixinTypes="[mix:versionable]"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Portfolio"
-        jcr:uuid="d59ac4ca-8b5d-4aa6-8046-0f6401ccd513"
-        sling:resourceType="personalproject/components/page">
+        jcr:uuid="9c3f7234-26bf-4603-b4fc-c077af6f38c2"
+        sling:resourceType="personalproject/components/page"
+        approver1="Heena Bhavnani"
+        approver2="Test User">
         <root
+            cq:lastRolledout="{Date}2022-01-20T16:48:14.555+05:30"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="personalproject/components/container"
             layout="responsiveGrid">
             <container
+                cq:lastRolledout="{Date}2022-01-20T16:48:14.576+05:30"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="personalproject/components/container"
                 layout="responsiveGrid">
                 <title
+                    cq:lastRolledout="{Date}2022-01-20T16:48:14.595+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/title"/>
                 <container
+                    cq:lastRolledout="{Date}2022-01-20T16:48:14.608+05:30"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/container"
                     layout="responsiveGrid">
                     <menunav
+                        cq:lastRolledout="{Date}2022-01-20T16:48:14.692+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-14T13:36:58.862+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T12:47:36.788+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:14.669+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/menunav"
                         heading="Portfolio"
                         path="/content/personalproject/us/en/home"
                         path1="/content/personalproject/us/en/home"
-                        path2="/content/personalproject/us/en/portfolio"
+                        path2="/content/personalproject/hi/en/portfolio"
                         title="Home"
                         title1="Home"
                         title2="Portfolio"/>
                     <experiencefragment
+                        cq:lastRolledout="{Date}2022-01-20T16:48:14.726+05:30"
+                        cq:lastRolledoutBy="admin"
                         jcr:created="{Date}2021-09-15T17:19:44.406+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-15T17:19:44.406+05:30"
+                        jcr:lastModified="{Date}2022-01-20T16:48:14.702+05:30"
                         jcr:lastModifiedBy="admin"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/experiencefragment"
                         fragmentVariationPath="/content/experience-fragments/personalproject/us/en/site/portfolio-fragment/portfolio-fragment-variation"/>
                 </container>
             </container>
         </root>
-        <cq:BlueprintSyncConfig
-            cq:rolloutConfigs="[/apps/msm/personal-project/rolloutconfigs/customrollout]"
-            jcr:primaryType="cq:BlueprintSyncConfig"/>
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/personalproject/us/en/portfolio"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default,/apps/msm/personal-project/rolloutconfigs/customconfig]"
+            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
 </jcr:root>
