@@ -37,7 +37,7 @@ public class CustomWorkflow implements WorkflowProcess {
                 Session session = workflowSession.adaptTo(Session.class);
                 String path = workflowData.getPayload().toString() + "/jcr:content";
                 Node node = (Node) session.getItem(path);
-                String[] processArgs = processArguments.get("PROCESS_ARGS", "string").toString().split(",");
+                String[] processArgs = processArguments.get("PROCESS_ARGS", "string").split(",");
                 MetaDataMap wfd=workItem.getWorkflow().getWorkflowData().getMetaDataMap();
                 for (String wfArgs : processArgs) {
                     String[] args = wfArgs.split(":");
@@ -57,7 +57,7 @@ public class CustomWorkflow implements WorkflowProcess {
                 }
             }
         }catch (Exception e){
-
+            log.info(e.getMessage());
         }
     }
 }

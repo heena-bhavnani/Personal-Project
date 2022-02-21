@@ -24,8 +24,6 @@ public class DisplayDateImpl implements DisplayDate {
     @Reference
     ResourceResolverFactory resourceResolverFactory;
 
-    String path ="/content/personalproject/us/en/scheduler-page/jcr:content/root/container/container/displaydate";
-
     @Override
     public String displayDate(String path) {
         try(ResourceResolver serviceResourceResolver = ResolverUtils.newResolver(resourceResolverFactory)) {

@@ -5,13 +5,15 @@ import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
+
 @Model(
         adaptables = SlingHttpServletRequest.class,
         adapters = BlogTeaser.class,
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 
-public class BlogTeaserImpl implements BlogTeaser{
+public class BlogTeaserImpl implements BlogTeaser {
+
 
     @ValueMapValue
     String img;
@@ -36,4 +38,6 @@ public class BlogTeaserImpl implements BlogTeaser{
     public String getDescription() {
         return description;
     }
+
+
 }
