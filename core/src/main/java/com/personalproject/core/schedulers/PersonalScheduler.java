@@ -31,7 +31,7 @@ public class PersonalScheduler implements Runnable {
     @Reference
     DisplayDate displayDate;
 
-    String path= "/content/personalproject/us/en/scheduler-page/jcr:content/root/container/container/displaydate";
+    String path;
 
     @Activate
     protected void activate(SchedulerConfiguration config) {
@@ -62,9 +62,7 @@ public class PersonalScheduler implements Runnable {
     @Override
     public void run() {
         LOG.info("\n ---------RUN METHOD EXECUTING----------");
-        displayDate.displayDate(path);
-
-
+        displayDate.displayDate("/content/personalproject/us/en/scheduler-page/jcr:content/root/container/container/displaydate");
 
 
     }

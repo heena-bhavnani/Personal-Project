@@ -57,7 +57,7 @@ public class OSGiConfigImpl implements OSGiConfig{
     private String runModes;
 
     @Activate
-    protected void activate(ServiceConfig serviceConfig){
+    public void activate(ServiceConfig serviceConfig){
         serviceName=serviceConfig.serviceName();
         serviceCount=serviceConfig.getServiceCount();
         liveData=serviceConfig.getLiveData();
