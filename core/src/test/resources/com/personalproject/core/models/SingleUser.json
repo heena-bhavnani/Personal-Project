@@ -1,0 +1,11 @@
+{
+  "singleUser": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "userid": "1",
+    "jcr:created": "Tue Feb 22 2022 14:47:49 GMT+0530",
+    "jcr:lastModified": "Tue Feb 22 2022 14:48:25 GMT+0530",
+    "sling:resourceType": "personalproject/components/content/singleuser"
+  }
+}
