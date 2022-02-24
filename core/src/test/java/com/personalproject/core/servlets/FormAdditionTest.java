@@ -16,6 +16,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
 @ExtendWith({AemContextExtension.class, MockitoExtension.class})
 
 class FormAdditionTest {
@@ -38,6 +39,5 @@ class FormAdditionTest {
         request.setParameterMap(paraMap);
         formAddition.doGet(request,response);
         assertEquals(24,Integer.parseInt(response.getOutputAsString().trim()));
-
     }
 }

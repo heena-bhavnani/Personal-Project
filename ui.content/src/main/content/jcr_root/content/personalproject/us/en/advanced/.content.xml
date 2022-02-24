@@ -2,10 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-16T15:42:55.373+05:30"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2022-02-09T16:35:09.327+05:30"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2021-09-17T10:40:36.153+05:30"
-        cq:lastReplicatedBy="admin"
+        cq:lastReplicated="{Date}2022-01-17T18:50:48.758+05:30"
+        cq:lastReplicatedBy="workflow-process-service"
         cq:lastReplicationAction="Activate"
         cq:template="/conf/personalproject/settings/wcm/templates/page-content"
         jcr:isCheckedOut="{Boolean}true"
@@ -13,7 +15,9 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Advanced"
         jcr:uuid="b078a7d7-2cda-4e93-920e-2b8a33c12734"
-        sling:resourceType="personalproject/components/page">
+        sling:resourceType="personalproject/components/page"
+        approver1="Heena Bhavnani"
+        approver2="Test User">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="personalproject/components/container"
@@ -28,23 +32,10 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="personalproject/components/container"
                     layout="responsiveGrid">
-                    <homeabout
-                        jcr:created="{Date}2021-09-07T11:45:57.592+05:30"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T11:23:14.566+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="personalproject/components/content/homeabout"
-                        about="About Me"
-                        details="Personal Details"
-                        img="/content/dam/personalproject/about-img.png"
-                        intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-                        mybutton="VIEW FULL DETAILS"
-                        pathfield="/content/personalproject/us/en/about"/>
                     <testimonial
                         jcr:created="{Date}2021-09-09T12:12:56.350+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-09-09T12:15:44.275+05:30"
+                        jcr:lastModified="{Date}2022-01-18T17:55:32.005+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="personalproject/components/content/testimonial">
@@ -58,7 +49,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 description="A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However."
                                 heading="Carolyn Craig"
-                                title="CEO at Facebook"/>
+                                title="CEO at Amazon United States"/>
                         </testimonialdetailswithmap>
                     </testimonial>
                     <timeline
@@ -94,8 +85,153 @@
                                 title="Session: 2003-06"/>
                         </timelinedetailswithmap>
                     </timeline>
+                    <price
+                        jcr:created="{Date}2021-09-09T12:16:05.748+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-09T12:16:39.163+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/price"
+                        heading="Economy"
+                        number="01"
+                        tag1="Secure Online Transfer"
+                        tag2="Unlimited Styles for interface"
+                        tag3="Reliable Customer Service"
+                        title="For the individuals">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </price>
+                    <formaddition
+                        jcr:created="{Date}2021-11-26T16:03:09.675+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-08T15:30:10.946+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/formaddition"
+                        number1="1"
+                        number2="1"/>
+                    <serviceusers
+                        jcr:created="{Date}2021-12-02T17:19:09.886+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-02T17:19:09.886+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/serviceusers"/>
+                    <titletext
+                        cq:styleIds="[1638956242114,1638954892460]"
+                        jcr:created="{Date}2021-12-08T14:46:30.225+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-08T14:48:04.726+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/titletext"
+                        info="At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected."
+                        paddingbottom="false"
+                        sectiongap="true"
+                        styling="false"
+                        title="My Offered Services"/>
+                    <customteaser
+                        cq:styleIds="[1638957033847,1638956829049]"
+                        jcr:created="{Date}2021-12-08T15:15:02.067+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-08T17:04:09.419+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/customteaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        fileReference="/content/dam/personalproject/p6.jpg"
+                        pretitle="This is Custom Teaser"
+                        textIsRich="true"
+                        titleFromPage="false"/>
+                    <homebannerarea
+                        cq:styleIds="[1639136616653,1639136648818,1639136660004]"
+                        jcr:created="{Date}2021-12-08T18:35:33.958+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-10T17:29:01.925+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/homebannerarea"
+                        bio="THIS IS ME"
+                        fullname="PHILIP GILBERT"
+                        img="/content/dam/personalproject/hero-img.png"
+                        intro="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures."
+                        mybutton="DISCOVER NOW"/>
+                    <homeabout
+                        cq:styleIds="[1639136376974,1639136439308,1639136477422,1639136399922]"
+                        jcr:created="{Date}2021-09-07T11:45:57.592+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-10T17:27:51.829+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/homeabout"
+                        about="THIS IS ME"
+                        details="PHILIP GILBERT"
+                        img="/content/dam/personalproject/about-img.png"
+                        intro="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures."
+                        mybutton="DISCOVER NOW"
+                        pathfield="/content/personalproject/us/en/about"/>
+                    <osgiconfigdemo
+                        jcr:created="{Date}2021-12-13T17:17:31.590+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-13T17:17:31.590+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/osgiconfigdemo"/>
+                    <titletext_778427774
+                        jcr:created="{Date}2022-01-18T13:30:21.841+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-18T13:30:40.544+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/titletext"
+                        info="Hello this is just a test"
+                        paddingbottom="false"
+                        sectiongap="true"
+                        styling="false"
+                        title="About Me"/>
+                    <brands
+                        jcr:created="{Date}2022-01-24T14:14:36.362+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-24T14:14:36.362+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/brands"/>
+                    <serviceusers
+                        jcr:created="{Date}2021-12-02T17:19:09.886+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-18T13:30:40.544+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/titletext"
+                        info="Hello this is just a test"
+                        paddingbottom="false"
+                        sectiongap="true"
+                        styling="false"
+                        title="About Me"/>
+                    <brands
+                        jcr:created="{Date}2022-01-24T14:14:36.362+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-01-24T14:14:36.362+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/brands"/>
+                    <cards
+                        jcr:created="{Date}2022-02-09T16:35:09.242+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-02-09T16:35:09.242+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="personalproject/components/content/cards"/>
                 </container>
             </container>
         </root>
+        <cq:BlueprintSyncConfig
+            cq:rolloutConfigs="[/apps/msm/personal-project/rolloutconfigs/customrollout]"
+            jcr:primaryType="cq:BlueprintSyncConfig"/>
     </jcr:content>
 </jcr:root>

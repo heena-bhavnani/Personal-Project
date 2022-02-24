@@ -4,8 +4,6 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,21 +15,15 @@ import java.util.List;
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 
-public class BrandsImpl implements Brands{
-
-    private static final Logger LOG = LoggerFactory.getLogger(BrandsImpl.class);
-
+public class BrandsImpl implements Brands {
 
     @ValueMapValue
     private List<String> path;
 
-//    @Inject
-//    Resource componentResource;
-
     @Override
     public List<String> getPathField() {
         if (path != null) {
-            return new ArrayList<String>(path);
+            return new ArrayList<>(path);
         } else {
             return Collections.emptyList();
         }

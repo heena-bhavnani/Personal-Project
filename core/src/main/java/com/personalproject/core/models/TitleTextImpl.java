@@ -12,8 +12,6 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 )
 public class TitleTextImpl implements TitleText {
 
-//    final protected static String RESOURCE_TYPE = "personalproject/components/content/titletext";
-
     @ValueMapValue
     String title;
 

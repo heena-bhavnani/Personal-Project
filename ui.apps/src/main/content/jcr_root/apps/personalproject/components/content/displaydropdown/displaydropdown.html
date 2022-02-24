@@ -1,0 +1,18 @@
+<sly data-sly-test.hasType="${properties.type}">
+    <pre><h4>Field Name: ${properties.type}</h4></pre>
+
+    <pre data-sly-test="${properties.type == 'Phone' && properties.contactinfo}">Contact Info: ${properties.contactinfo}</pre>
+
+    <pre data-sly-test="${properties.type == 'Address' && properties.line1}">Line 1: ${properties.line1}</pre>
+    <pre data-sly-test="${properties.type == 'Address' && properties.line2}">Line 2: ${properties.line2}</pre>
+    <pre data-sly-test="${properties.type == 'Address' && properties.line3}">Line 3: ${properties.line3}</pre>
+
+    <pre data-sly-test="${properties.type == 'Gender' && properties.gender}">Gender: ${properties.gender}</pre>
+
+    <pre data-sly-test="${properties.type == 'Languages' && properties.english}">Language: ${properties.english}</pre>
+    <pre data-sly-test="${properties.type == 'Languages' && properties.hindi}">Language: ${properties.Hindi}</pre>
+    <pre data-sly-test="${properties.type == 'Languages' && properties.marathi}">Language: ${properties.Marathi}</pre>
+
+
+
+</sly>
